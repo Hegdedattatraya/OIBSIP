@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">BuY GroCerY</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Shop</a>
+    </div>
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Buy a quality Grocery</h1>
+            <button>
+                <a>
+                    Shop Now
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="fgs.jpeg" width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Products</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           Veggies
+                        </a>
+                    </div>
+                    <p>
+                        <ul>
+                            <li>Beets</li>
+                            <li>Green Pepper</li>
+                            <li>Broccolis</li>
+                            <li>Spinach</li>
+                            <li>Cucumber</li>
+                            <li>Any Green Veggies</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Fruits
+                        </a>
+                    </div>
+                    <p>
+                        <ul>
+                            <li>Apple</li>
+                            <li>Orange</li>
+                            <li>Banana</li>
+                            <li>Any Berries</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Others
+                        </a>
+                    </div>
+                    <p>
+                        <ul>
+                            <li>Hummus</li>
+                            <li>Olive Oil</li>
+                            <li>Coconut Oil</li>
+                            <li>Peanut Butter</li>
+                            <li>Nuts</li>
+                            <li>Oats</li>
+                            <li>Organic Honey</li>
+                            <li>Sugar</li>
+                            <li>Rice bags</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Shop</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Phone Number</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Phone Number here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Address</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Address here">
+                    </div>
+                    <div class="button">
+                        <button>Buy</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Dr.Vishnuvardhan Road,Kengeri,Bengaluru,Karnataka 560060
+                        </div>
+                        <div class="title1">
+                            <span>
+                                Information
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Buy a quality fresh grocery & Enjoy the life with satisfaction
+                            by using our products
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a target="_blank">
+                    BuY GroCerY
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script>
+        function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+    }
+        function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+    }
+    </script>
+</body>
+
+</html>
